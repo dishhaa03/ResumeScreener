@@ -1,4 +1,6 @@
 # ResumeScreener
+Working : The UpadtedResumeData contains 962 different data points. Each row consists of a resume and category in which that resume belongs. 80% of this data is used to train a KNN (K-Nearest Neighbour classifier) and stored using a pickle file named "clf.pkl". Other file "tfidf.pkl" contains the details of word vectors that are formed. 
+
 I have created a API that uses basic authorization and then user can send their resume text and it will use ML models to identify which job role is best suited for you.
 
 Direction to use:
